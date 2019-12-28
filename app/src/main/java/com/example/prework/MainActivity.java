@@ -19,14 +19,21 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //Log.i("Regina", "Button Clicked");
                 ((TextView) findViewById(R.id.textView)).setTextColor(
-                        getResources().getColor(R.color.colorPrimary));   //option Enter for the cast import
+                        getResources().getColor(R.color.black));   //option Enter for the cast import
             }
         });
-        /*findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                findViewById()
+                findViewById(R.id.rootView).setBackgroundColor(
+                        getResources().getColor(R.color.lightPurple));
             }
-        });*/
+        });
+        findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ((TextView) findViewById(R.id.textView)).setText("Goodbye");
+            }
+        });
     }
 }
