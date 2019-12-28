@@ -1,7 +1,7 @@
 ## CodePath Prework Assignment
 
 ### App Description
-`TODO://` Create a simple Android application that changes text color with a button click
+A simple Android application that changes various attributes through button clicks
 
 ### App Walk-though
 <img src="http://g.recordit.co/MlpVBXxn46.gif" width=200><br>
@@ -25,3 +25,7 @@
 Set background and set Text 
 
 <img src="http://g.recordit.co/aoVaWjrZTb.gif" width=200><br>
+
+Reset on Root View
+
+<img src="http://g.recordit.co/UqgNZK8hOO.gif" width=200><br>
