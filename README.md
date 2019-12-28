@@ -20,6 +20,9 @@ A simple Android application that changes various attributes through button clic
    - [x] b. User can tap the "Change text string" button to update the label with the text from the text field.  
    - [x] c. If the text field is empty, update label with default text string.  
 
+
+Additional: Reset Edit Text (Blank state) upon setting Text
+
 ### App Walk-though with Optional User Stories
 Set background and set Text 
 
@@ -28,3 +31,7 @@ Set background and set Text
 Reset on Root View
 
 <img src="http://g.recordit.co/UqgNZK8hOO.gif" width=200><br>
+<br>
+FINAL - Grabs User Input and displays text
+<br>
+<img src="http://g.recordit.co/uPtOXFSEds.gif" width=200 alt="demo"><br>
