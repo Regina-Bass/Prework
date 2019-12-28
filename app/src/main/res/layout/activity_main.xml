@@ -9,6 +9,14 @@
     tools:context=".MainActivity">
 
 
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:id="@+id/editText"/>
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="210dp"
